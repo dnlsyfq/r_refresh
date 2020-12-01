@@ -1,0 +1,10 @@
+---
+title: "r_introduction"
+output: html_document
+---
+
+
+```{r}
+25 * 4 + 9 /3
+
+```
