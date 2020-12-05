@@ -75,3 +75,35 @@ install.packages('package-name')
 library(package-name)
 ```
 
+### data analysis and statistical computing 
+
+dplyr
+
+* statistical model
+```
+fit <- lm(dist~speed,data=cars)
+```
+
+* vectorized calculations
+```
+x <- 1:10
+
+x_squared = c()
+
+for(i in 1:length(x)){
+  x_squared[i] = x[i]**2
+}
+
+x_squared <- x ** 2
+```
+
+* data viz 
+
+```
+ggplot(iris, aes(x=Sepal.Length, y=Petal.Length, color=Species)) +
+  geom_point() + 
+  labs(x='Sepal Length',y='Petal Length')
+```
+
+
+
