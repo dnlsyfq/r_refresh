@@ -8,3 +8,13 @@ output: html_document
 25 * 4 + 9 /3
 
 ```
+
+```{r}
+two_by_three_matrix <- matrix(0, nrow = 2, ncol = 3)
+print(two_by_three_matrix)
+
+abc_repeat <- matrix(c("a", "b", "c"), nrow = 3, ncol = 4)
+print(abc_repeat)
+
+
+```
