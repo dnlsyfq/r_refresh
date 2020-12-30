@@ -17,5 +17,23 @@ abc_repeat <- matrix(c("a", "b", "c"), nrow = 3, ncol = 4)
 print(abc_repeat)
 
 eight_matrix <- matrix(c(1:8), nrow = 3, ncol = 4)
-print(ten_matrix)
+print(eight_matrix)
 ```
+
+```{r}
+x <- c(1,2,3,4,5)
+y <- c(1,4,9,16,25)
+
+plot(x,y,type='b')
+
+```
+```{r}
+# install.packages('nycflights13')
+
+```
+
+```{r}
+library(nycflights13)
+hist(flights$distance)
+```
+

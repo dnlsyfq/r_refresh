@@ -1,3 +1,11 @@
+
+### Help
+
+```
+?install.packages
+```
+
+
 ### Data Types
 * Vectors: A list of related data that is all the same type.
 * Logical : TRUE | FALSE 
@@ -148,7 +156,7 @@ print(student_scores$extra_credit)
 # output: [1] TRUE TRUE FALSE
 ```
 
-
+* View(df)
 
   
 ### Conditionals
@@ -206,6 +214,7 @@ sum(5,15,10) #Outputs 30
 ```
 install.packages('package-name')
 library(package-name)
+remove.packages('package-name')
 ```
 
 ### data analysis and statistical computing 
@@ -238,5 +247,9 @@ ggplot(iris, aes(x=Sepal.Length, y=Petal.Length, color=Species)) +
   labs(x='Sepal Length',y='Petal Length')
 ```
 
+### CSV
 
+```
+read.csv('_.csv')
+```
 
